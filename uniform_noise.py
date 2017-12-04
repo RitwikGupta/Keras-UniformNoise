@@ -1,6 +1,5 @@
 from keras.engine import Layer
 from keras import backend as K
-import numpy as np
 
 
 class UniformNoise(Layer):
