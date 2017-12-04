@@ -35,3 +35,4 @@ class UniformNoise(Layer):
         config = {'minval': self.minval, 'maxval': self.maxval}
         base_config = super(UniformNoise, self).get_config()
         return dict(list(base_config.items()) + list(config.items()))
+
